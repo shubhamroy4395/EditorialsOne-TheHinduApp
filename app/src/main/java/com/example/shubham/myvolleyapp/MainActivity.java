@@ -59,8 +59,8 @@ CardView cv1,cv2;
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder alert = new AlertDialog.Builder(MainActivity.this);
-                alert.setTitle("A Reminder for Lazyass Baby a.k.a Nidhu AGG");
-                alert.setMessage("\n\nThis app is created for Nidhu Agg so that she could shrug away her laziness and read worthwhile materials on the internet. She is a high maintainence GF and needs constant pampering. I hope she enjoys this app \n\n");
+                alert.setTitle("");
+                alert.setMessage("");
                 alert.setPositiveButton("OK", null);
                 alert.show();
 
